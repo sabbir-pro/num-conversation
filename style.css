@@ -162,9 +162,15 @@ h2
 
 {
     
-    position: absolute;
-    top: 99%;
+    display: inline-block;
+
     margin: auto;
+
+    margin-top: 10px;
+
+    top: 98%;
+
+    font-size: 5px;
 
 }
 
