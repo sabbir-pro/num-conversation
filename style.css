@@ -158,6 +158,16 @@ h2
 
 }
 
+#made
+
+{
+    
+    position: absolute;
+    top: 99%;
+    margin: auto;
+
+}
+
 input[type="button"]:hover
 
 {
