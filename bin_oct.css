@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+body
+{
+    background: #EEF2F7;
+}
+
+.container
+{
+    width: 300px;
+    height: 200px;
+    background-color: #F7F7F7;
+    margin-top: 30px;
+    margin-left: 7px;
+    margin-bottom: 8px;
+    padding: 7px;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+input
+{
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: orange;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+input:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 0.5s;
+}
+input[type="text"]
+{
+    background: white;
+    color: #0D0D0D;
+    cursor: pointer;
+}
+.in
+{
+    width: 100%;
+    height: 100px;
+    background: #C8C8C8;
+    margin-top: 7px;
+    color: #303030;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+a
+{
+    width: 100%;
+    text-decoration: none;
+    background-color: #D4D7D1;
+    padding: 8px;
+    display: inline-block;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    color: #006D99;
+}
+h2
+{
+    padding: 4px;
+    color: #006D99;
+    text-decoration: underline;
+    margin-bottom: 7px;
+}
+input[type="button"]:hover
+{
+    background: #F4F4F4;
+    color: orange;
+    transition: 0.5s;
+}
